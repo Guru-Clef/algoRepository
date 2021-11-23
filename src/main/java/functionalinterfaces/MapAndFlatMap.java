@@ -22,6 +22,9 @@ public class MapAndFlatMap {
         .map(flatmapper)
         .forEach(System.out::println);
 
+    Stream<Integer> aa = Stream.empty();
+    aa.findAny().isPresent();
+
   }
 
 
